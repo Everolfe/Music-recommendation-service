@@ -7,4 +7,4 @@ Operation system: Windows, Linux
 Language: Java.  
 Interface language: JavaFX.
 
-[SRS of program](https://github.com/DanutaGagua/Personal-film-collection-manager/blob/master/Requirements/SRS.md) 
+[SRS of program](https://github.com/Everolfe/Music-recommendation-service/blob/main/Docs/Requirements/SRS.md) 
