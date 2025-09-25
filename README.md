@@ -1,6 +1,6 @@
 # Music-recommendation-service
 
-This program allows to find information about your favorite films.
+This program allows to find information about your music collection and recommendations.
 
 Operation system: Windows, Linux  
 
