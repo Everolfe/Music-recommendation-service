@@ -91,12 +91,57 @@
 <a name="user_interface"/>
 
 ## 2.2 Интерфейс пользователя
-- Окно входа в приложение.  
-- Окно регистрации.  
-- Главное окно (таблица фильмов + блок рекомендаций).  
-- Окно поиска и добавления фильма.  
-- Окно с подробной информацией о фильме.  
-- Окно с рекомендациями (список фильмов, похожих на просмотренные).  
+Окно входа в приложение.  
+
+![Окно входа в приложение](https://github.com/DanutaGagua/Personal-film-collection-manager/blob/master/Mockups/SignInMockup.png)  
+
+Окно регистрации нового пользователя.  
+
+![Окно регистрации нового пользователя](https://github.com/DanutaGagua/Personal-film-collection-manager/blob/master/Mockups/SigningUpMockup.png) 
+
+Окно регистрации нового пользователя после ввода имени, уже зарегистрированного в приложении. 
+
+![Окно регистрации нового пользователя после ввода имени, уже зарегистрированного в приложении](https://github.com/DanutaGagua/Personal-film-collection-manager/blob/master/Mockups/CheckOfCorrectSigningUpMockup%20.png)  
+
+Окно входа для зарегистрированного пользователя.  
+
+![Окно входа для зарегистрированного пользователя](https://github.com/DanutaGagua/Personal-film-collection-manager/blob/master/Mockups/SigningInMockup.png).
+
+Главное окно приложения (пользователь зарегистрирован). 
+
+![Главное окно приложения](https://github.com/DanutaGagua/Personal-film-collection-manager/blob/master/Mockups/SignUserFilmListMockup.png)  
+
+Главное окно приложения после выбора фильма в таблице (пользователь зарегистрирован). 
+
+![Главное окно приложения после выбора фильма в таблице](https://github.com/DanutaGagua/Personal-film-collection-manager/blob/master/Mockups/SignUserFilmInformationMockup.png) 
+
+Окно поиска (пользователь зарегистрирован). 
+
+![Окно поиска](https://github.com/DanutaGagua/Personal-film-collection-manager/blob/master/Mockups/SignUserFilmSearchMockup.png) 
+
+Окно поиска при ошибке (пользователь зарегистрирован). 
+
+![Окно поиска при ошибке](https://github.com/DanutaGagua/Personal-film-collection-manager/blob/master/Mockups/SignUserFilmSearchErrorMockup.png)  
+
+Окно с информацией о найденном фильме (пользователь зарегистрирован).  
+
+![Окно с информацией о найденном фильме](https://github.com/DanutaGagua/Personal-film-collection-manager/blob/master/Mockups/SignUserSerchedFilmInformationMockup%20.png)  
+
+Окно с выделением фильма, который будут удалять (пользователь зарегистрирован).  
+
+![Окно с выделением фильма, который будут удалять](https://github.com/DanutaGagua/Personal-film-collection-manager/blob/master/Mockups/SelectToDeleteFilmMockup.png) 
+
+Главное окно приложения (посетитель).  
+
+![Главное окно приложения посетитель](https://github.com/DanutaGagua/Personal-film-collection-manager/blob/master/Mockups/UnsignUserFilmSearchMockup.png)  
+
+Главное окно приложения при ошибке поиска (посетитель).  
+
+![Главное окно приложения при ошибке поиска посетитель](https://github.com/DanutaGagua/Personal-film-collection-manager/blob/master/Mockups/UnsignUserFilmSearchErrorMockup.png)    
+
+Окно с информацией о найденном фильме (посетитель).  
+
+![Окно с информацией о найденном фильме посетитель](https://github.com/DanutaGagua/Personal-film-collection-manager/blob/master/Mockups/UnsignUserSerchedFilmInformationMockup%20.png)  
 
 <a name="user_specifications"/>
 
@@ -236,5 +281,6 @@
 2. Язык разработки - Java
 3. Графический интерфейс реализуется с использованием JavaFX
 4. Использование реляционной базы данных PostgreSQL для хранения данных
+
 
 
