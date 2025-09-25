@@ -93,7 +93,7 @@
 ## 2.2 Интерфейс пользователя
 Окно входа в приложение.  
 
-![Окно входа в приложение](https://github.com/DanutaGagua/Personal-film-collection-manager/blob/master/Mockups/SignInMockup.png)  
+![Окно входа в приложение]([https://github.com/DanutaGagua/Personal-film-collection-manager/blob/master/Mockups/SignInMockup.png](https://github.com/Everolfe/Music-recommendation-service/blob/main/Docs/Mockups/SignInMockup.png))  
 
 Окно регистрации нового пользователя.  
 
@@ -281,6 +281,7 @@
 2. Язык разработки - Java
 3. Графический интерфейс реализуется с использованием JavaFX
 4. Использование реляционной базы данных PostgreSQL для хранения данных
+
 
 
 
