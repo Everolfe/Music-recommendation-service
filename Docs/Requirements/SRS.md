@@ -133,15 +133,15 @@
 
 Главное окно приложения (посетитель).  
 
-![Главное окно приложения посетитель](https://github.com/DanutaGagua/Personal-film-collection-manager/blob/master/Mockups/UnsignUserFilmSearchMockup.png)  
+![Главное окно приложения посетитель](https://github.com/Everolfe/Music-recommendation-service/blob/main/Docs/Mockups/GuestUserSearchMockup.png)  
 
 Главное окно приложения при ошибке поиска (посетитель).  
 
-![Главное окно приложения при ошибке поиска посетитель](https://github.com/DanutaGagua/Personal-film-collection-manager/blob/master/Mockups/UnsignUserFilmSearchErrorMockup.png)    
+![Главное окно приложения при ошибке поиска посетитель](https://github.com/Everolfe/Music-recommendation-service/blob/main/Docs/Mockups/GuestUserFailSearch.png)    
 
-Окно с информацией о найденном фильме (посетитель).  
+Окно с информацией о найденном альбоме (посетитель).  
 
-![Окно с информацией о найденном фильме посетитель](https://github.com/DanutaGagua/Personal-film-collection-manager/blob/master/Mockups/UnsignUserSerchedFilmInformationMockup%20.png)  
+![Окно с информацией о найденном альбоме посетитель](https://github.com/Everolfe/Music-recommendation-service/blob/main/Docs/Mockups/GuestUserAlbumIfoMockup.png)  
 
 <a name="user_specifications"/>
 
@@ -281,6 +281,7 @@
 2. Язык разработки - Java
 3. Графический интерфейс реализуется с использованием JavaFX
 4. Использование реляционной базы данных PostgreSQL для хранения данных
+
 
 
 
