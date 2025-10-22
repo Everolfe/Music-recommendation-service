@@ -1,6 +1,6 @@
 # Диаграмма вариантов использования
 
-![Диаграмма вариантов использования](https://github.com/DanutaGagua/Personal-film-collection-manager/blob/master/Diagrams/Images/UseCase.png) 
+![Диаграмма вариантов использования](https://github.com/Everolfe/Music-recommendation-service/blob/main/Docs/Diagrams/useCase.png) 
   
 # Глоссарий
 
@@ -220,5 +220,6 @@
 2. Приложение выполняет соответствующее действие;
 3. Отображает обновлённый список плейлистов;
 4. Вариант использования завершается.
+
 
 4. Вариант использования завершается.
