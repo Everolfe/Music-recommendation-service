@@ -1,6 +1,6 @@
 # Диаграмма вариантов использования
 
-![Диаграмма вариантов использования](https://github.com/Everolfe/Music-recommendation-service/blob/main/Docs/Diagrams/useCase.png) 
+![Диаграмма вариантов использования](https://github.com/Everolfe/Music-recommendation-service/blob/main/Docs/Diagrams/Images/useCase.png) 
   
 # Глоссарий
 
@@ -219,5 +219,6 @@
 2. Приложение сохраняет данные и закрывает сессию;
 3. Отображается окно входа;
 4. Вариант использования завершается.
+
 
 4. Вариант использования завершается.
