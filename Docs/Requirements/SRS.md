@@ -127,10 +127,6 @@
 
 ![Окно с информацией о найденном альбоме](https://github.com/Everolfe/Music-recommendation-service/blob/main/Docs/Mockups/SignUserAlbumInfoMockup.png)  
 
-Окно с выделением альбома, который будут удалять (пользователь зарегистрирован).  
-
-![Окно с выделением альбома, который будут удалять](https://github.com/Everolfe/Music-recommendation-service/blob/main/Docs/Mockups/SignUserAlbumConfirmDelMockup.png) 
-
 Главное окно приложения (посетитель).  
 
 ![Главное окно приложения посетитель](https://github.com/Everolfe/Music-recommendation-service/blob/main/Docs/Mockups/GuestUserSearchMockup.png)  
@@ -281,6 +277,7 @@
 2. Язык разработки - Java
 3. Графический интерфейс реализуется с использованием JavaFX
 4. Использование реляционной базы данных PostgreSQL для хранения данных
+
 
 
 
