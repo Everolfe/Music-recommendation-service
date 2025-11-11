@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox xmlns="http://javafx.com/javafx/17.0.2-ea"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.github.everolfe.controller.LoginController"
+      spacing="20"
+      style="-fx-background-color: #f5f5f5;"
+      alignment="CENTER">
+
+    <padding>
+        <Insets top="50" right="50" bottom="50" left="50"/>
+    </padding>
+
+    <!-- Заголовок -->
+    <Label text="Music Recommendation Service"
+           style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #2c3e50;"/>
+
+    <TabPane tabClosingPolicy="UNAVAILABLE" VBox.vgrow="ALWAYS">
+
+        <!-- Вкладка входа -->
+        <Tab text="Вход">
+            <VBox spacing="15" alignment="CENTER">
+                <padding>
+                    <Insets top="20" right="20" bottom="20" left="20"/>
+                </padding>
+
+                <Label text="Вход в систему"
+                       style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+
+                <VBox spacing="10" alignment="CENTER_LEFT">
+                    <Label text="Имя пользователя:"/>
+                    <TextField fx:id="usernameField"
+                               promptText="Введите имя пользователя"
+                               prefWidth="250"/>
+                </VBox>
+
+                <VBox spacing="10" alignment="CENTER_LEFT">
+                    <Label text="Пароль:"/>
+                    <PasswordField fx:id="passwordField"
+                                   promptText="Введите пароль"
+                                   prefWidth="250"/>
+                </VBox>
+
+                <HBox spacing="20" alignment="CENTER">
+                    <Button text="Войти"
+                            onAction="#handleLogin"
+                            style="-fx-background-color: #3498db; -fx-text-fill: white;"
+                            prefWidth="100"/>
+
+                    <Button text="Продолжить как гость"
+                            onAction="#handleGuestLogin"
+                            style="-fx-background-color: #95a5a6; -fx-text-fill: white;"
+                            prefWidth="150"/>
+                </HBox>
+            </VBox>
+        </Tab>
+
+        <!-- Вкладка регистрации -->
+        <Tab text="Регистрация">
+            <VBox spacing="15" alignment="CENTER">
+                <padding>
+                    <Insets top="20" right="20" bottom="20" left="20"/>
+                </padding>
+
+                <Label text="Регистрация нового пользователя"
+                       style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+
+                <VBox spacing="10" alignment="CENTER_LEFT">
+                    <Label text="Имя пользователя:"/>
+                    <TextField fx:id="registerUsernameField"
+                               promptText="Придумайте имя пользователя"
+                               prefWidth="250"/>
+                </VBox>
+
+                <VBox spacing="10" alignment="CENTER_LEFT">
+                    <Label text="Email:"/>
+                    <TextField fx:id="registerEmailField"
+                               promptText="Введите ваш email"
+                               prefWidth="250"/>
+                </VBox>
+
+                <VBox spacing="10" alignment="CENTER_LEFT">
+                    <Label text="Пароль:"/>
+                    <PasswordField fx:id="registerPasswordField"
+                                   promptText="Придумайте пароль"
+                                   prefWidth="250"/>
+                </VBox>
+
+                <Button text="Зарегистрироваться"
+                        onAction="#handleRegister"
+                        style="-fx-background-color: #27ae60; -fx-text-fill: white;"
+                        prefWidth="150"/>
+            </VBox>
+        </Tab>
+    </TabPane>
+</VBox>
