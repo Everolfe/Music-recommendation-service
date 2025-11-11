@@ -116,7 +116,7 @@
 
 ## Представление результатов
 
-Результаты представлены  в документе ["Результаты тестирования"](https://github.com/DanutaGagua/Personal-film-collection-manager/blob/master/Test%20results.md).
+Результаты представлены  в документе ["Результаты тестирования"](https://github.com/Everolfe/Music-recommendation-service/blob/main/Docs/Tests/TestResults.md).
 
 <a name="conclusion"/>
 
